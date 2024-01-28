@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" >
+	<head>
+		<meta http-equiv="content-type" content="text/html" charset="utf-8" />
+		<title>Home | Onur Emre</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="" >
+		<link rel="StyleSheet" href="anaSayfa.css" />
+		<script src="https://secure.exportkit.com/cdn/js/ek_googlefonts.js?v=6"></script>
+		<script>
+			function contact() {
+				window.open('https://forms.gle/4ADAE3UteNbhVPwV8', '_self');
+			}
+			function farmmodstv() {
+				window.open('https://www.farmmodstv.net/', '_self');
+			}
+			function home() {
+				window.open('anaSayfa.html', '_self');
+			}
+			document.addEventListener("scroll", function() {
+				var menu = document.querySelector('.menu');
+				var scrollPosition = window.scrollY;
+			  
+				if (scrollPosition > 100) { // Belirli bir kaydırma mesafesine ulaşıldığında menüyü kaydır
+				  menu.style.top = '-50px'; // Menüyü yukarı kaydır (gizle)
+				} else {
+				  menu.style.top = '0'; // Menüyü aşağı kaydır (göster)
+				}
+			  });
+		</script>
+	</head>
+	<body>
+		<div id="content-container" >
+			<div id="page_anasayfa_ek1"  nameid="anaSayfa"  >
+				<div  nameid="anaSayfa"  id="_bg__anasayfa_ek2"  ></div>
+				<div  nameid="MY LINKS"  id="hosgeldin">My Name is Onur Emre<br/> I'm 3D Modeler & Modder</div>
+				<div id="menu"  nameid="menu"  >
+					<div  nameid="menu"  id="_bg__menu_ek1"  ></div>
+					<div  nameid="contact"  id="contact" onclick="contact()">
+						Contact
+					</div>
+					<div  nameid="About Me"  id="about_me" onclick="window.location.href='aboutMe.html'">
+						About Me
+					</div>
+					<div  nameid="FARMMODSTV.NET"  id="farmmodstv_net" onclick="farmmodstv()" >
+						<strong>&raquo;</strong>farmmodstv.net
+					</div>
+					<div  nameid="onuremre"  id="onuremre" onclick="home()" >
+						ONUR EMRE
+					</div>
+
+				</div>
+				<div id="linker"  nameid="linker"  >
+					<div  nameid="linker"  id="_bg__linker_ek1"  ></div>
+
+					<div id="linkedn"  nameid="linkedn" onclick="window.location.href='https://www.linkedin.com/in/onur-emre-yilmaz/';">LinkedIn</div>
+
+					<div id="threads"  nameid="threads" onclick="window.location.href='https://www.threads.net/@onuremreyilm';">Threads</div>
+
+					<div id="facebook"  nameid="facebook" onclick="window.location.href='https://www.facebook.com/profile.php?id=100090655121563';">Facebook</div>
+
+					<div id="instagram"  nameid="instagram" onclick="window.location.href='https://www.instagram.com/onuremreyilm/';">Instagram</div>
+
+					<div id="youtube"  nameid="YOUTUBE" onclick="window.location.href='https://www.youtube.com/@onuremre61';">YouTube</div>
+
+					<div  nameid="MY LINKS"  id="my_links" >MY LINKS</div>
+				</div>
+
+			</div>
+		</div>
+		<footer>
+			<div id="telif">
+				&copy; Onur Emre, Official Website
+			</div>
+		</footer>
+	</body>
+</html>
